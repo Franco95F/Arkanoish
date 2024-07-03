@@ -24,12 +24,12 @@ let gameOver = false;
 let score = 0;
 
 function setGameOver(view: CanvasView) {
-  view.drawInfo('Game Over!');
+  view.drawInfo('Perdiste Bo!');
   gameOver = false;
 }
 
 function setGameWin(view: CanvasView) {
-  view.drawInfo('Game Won!');
+  view.drawInfo('Ganaste Viva Peron');
   gameOver = false;
 }
 
